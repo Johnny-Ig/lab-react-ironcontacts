@@ -46,11 +46,11 @@ function Contacts() {
 
     return (
     <div>
-     <button className="boton" onClick={addContactsRandom}>
-       Add More
+     <button onClick={addContactsRandom}>
+      Añade más
       </button>
-      <button className="boton" onClick={ordenarPorPopularidad}>
-        Sort by Popularity
+      <button  onClick={ordenarPorPopularidad}>
+      Ordena por Popularidad
       </button>
 
 
